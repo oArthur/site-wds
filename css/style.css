@@ -228,3 +228,26 @@ footer {
 .social-list img {
     width: 9.5rem;
 }
+/*lista de conteudo*/
+.contentdoc{
+    
+}
+/* unvisited link */
+a:link {
+    color: inherit;
+}
+  
+/* visited link */
+a:visited {
+    color: inherit;
+}
+  
+/* mouse over link */
+a:hover {
+    color: inherit;
+}
+  
+/* selected link */
+a:active {
+    color: inherit;
+}
