@@ -103,18 +103,21 @@ header {
     width: 250px;
     border-radius: 2.5rem;
 }
-#logo_altair{
+
+#logo_altair {
     width: 30rem;
     margin-top: -2rem;
 }
-.sobreNos h3{
+
+.sobreNos h3 {
     margin-top: 5rem;
 }
+
 .description {
     font-size: 20px;
     display: flex;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 20px;
     text-align: left;
     text-align: justify;
@@ -188,4 +191,40 @@ header {
 .casoimg img {
     width: 75rem;
     box-shadow: 0.5px 0.5px 16px 2px black;
+    margin-bottom: 4rem;
+}
+
+footer {
+    width: 100%;
+    height: 15rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p {
+    color: #a7a7a7;
+    font-size: 1.2rem;
+}
+
+.social-list a {
+    margin: 0 2rem;
+    color: #a7a7a7a7;
+    font-size: 1.3rem;
+}
+
+.social-list ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.social-list img {
+    width: 9.5rem;
 }
