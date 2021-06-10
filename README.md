@@ -9,7 +9,7 @@
 - desenvolvimento de um projeto da materia de engenharia de software
 ```
 
-<p>Home Page <img src="https://i.imgur.com/UoQADNc.png" alt="HomePAge" title="HomePage"/></p>
+<p>Pagina Inicial <img src="https://i.imgur.com/wXjPpNd.png" alt="HomePAge" title="HomePage"/></p>
 
 
 
