@@ -72,7 +72,7 @@ body {
     height: 300px;
     width: 300px;
     /*border-radius: 50%;*/
-    -webkit-box-shadow: 10px 10px 20px -1px rgb(0 0 0 / 45%);
+    /*-webkit-box-shadow: 10px 10px 20px -1px rgb(0 0 0 / 45%);*/
 }
 
 header {
@@ -101,7 +101,13 @@ header {
     width: 250px;
     border-radius: 2.5rem;
 }
-
+#logo_altair{
+    width: 30rem;
+    margin-top: -2rem;
+}
+.sobreNos h3{
+    margin-top: 5rem;
+}
 .description {
     font-size: 20px;
     display: flex;
