@@ -1,7 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
 body {
     margin: 0 0 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     background-color: #fff;
+}
+
+#main #content-wrap {
+    padding-bottom: 0;
 }
 
 
@@ -34,7 +45,6 @@ body {
     display: inline;
     margin-left: auto;
     margin-right: auto;
-   
 }
 
 #lg_home {
@@ -98,7 +108,8 @@ header {
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
 }
-.sobre_eginner{
+
+.sobre_eginner {
     margin-top: 6rem;
     font-size: 40px;
 }
@@ -197,7 +208,8 @@ header {
     box-shadow: 0.5px 0.5px 16px 2px black;
     margin-bottom: 4rem;
 }
-.descriptione{
+
+.descriptione {
     margin-top: -2rem;
     font-size: 20px;
     /*display: flex;*/
@@ -306,7 +318,7 @@ button {
 
 footer {
     width: 100%;
-    height: 4rem;
+    height: 7rem;
     background-color: #17181b;
     display: flex;
     justify-content: center;
@@ -337,39 +349,44 @@ footer {
 }
 
 .social-list img {
-    width: 9.5rem;
+    width: 4.5rem;
 }
-/*lista de conteudo*/
-.contentdoc{
-    
-}
+
+
 /* unvisited link */
+
 a:link {
     color: inherit;
 }
-  
+
+
 /* visited link */
+
 a:visited {
     color: inherit;
 }
-  
+
+
 /* mouse over link */
+
 a:hover {
     color: inherit;
 }
-  
+
+
 /* selected link */
+
 a:active {
     color: inherit;
 }
-.videopai{
+
+.videopai {
     display: flex;
     justify-content: center;
     margin-bottom: 10rem;
-   
 }
-.video{
+
+.video {
     align-items: center;
     margin-top: 6rem;
 }
-
