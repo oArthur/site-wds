@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" type="text/css" href="css/style.css">
+    <link rel="Stylesheet" type="text/css" href="carrossel.css">
+
+    <title>Tabelas Caso de Uso</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="header">
+            <ul>
+                <li><a href="index.html" id="lg_home">&#x1F3E0</a></li>
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="desenvolvimento.html">Desenvolvimento</a></li>
+                <li><a href="estrategia.html">Estratégia de testes</a></li>
+                <li><a href="prototipo.html">Protótipo</a></li>
+                <li><a href="caso_de_uso.html">Diagrama de Casos de Uso</a></li>
+                <li><a href="tabelas.html">Tabelas Caso de Uso</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div id="logo"></div>
+    </header>
+
+    <div class="container-table">
+        <div class="table-img">
+            <img src="assets/table.gif" alt="Desenvolvimento">
+            <h2 class="sobre">
+                Tabelas de Casos de Uso
+            </h2>
+        </div>
+        <h4>
+            Selecione uma tabela:
+        </h4>
+        <div class="box">
+
+            <div class="tab1">
+                <h2><button href="" onclick="openModal();currentSlide(1)">1</button></h2>
+
+            </div>
+            <div class="tab1">
+                <h2><button href="" onclick="openModal();currentSlide(2)">2</button></h2>
+            </div>
+            <div class="tab1">
+                <h2><button href="" onclick="openModal();currentSlide(3)">3</button></h2>
+            </div>
+            <div class="tab1">
+                <h2><button href="" onclick="openModal();currentSlide(4)">4</button></h2>
+            </div>
+            <div class="tab1">
+                <h2><button href="" onclick="openModal();currentSlide(5)">5</button></h2>
+            </div>
+            <div class="tab1">
+                <h2><button href="" onclick="openModal();currentSlide(6)">6</button></h2>
+            </div>
+            <div class="tab1">
+                <h2><button href="" onclick="openModal();currentSlide(7)">7</button></h2>
+            </div>
+            <div class="tab1">
+                <h2><button href="" onclick="openModal();currentSlide(8)">8</button></h2>
+            </div>
+            <div class="tab1">
+                <h2><button href="" onclick="openModal();currentSlide(9)">9</button></h2>
+            </div>
+            <div class="tab1">
+                <h2><button href="" onclick="openModal();currentSlide(10)">10</button></h2>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 10</div>
+                <img src="/assets/ref1.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 10</div>
+                <img src="/assets/ref2.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 10</div>
+                <img src="/assets/ref3.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 10</div>
+                <img src="/assets/ref4.png" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">5 / 10</div>
+                <img src="/assets/ref5.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 10</div>
+                <img src="/assets/ref6.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">7 / 10</div>
+                <img src="/assets/ref7.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">8 / 10</div>
+                <img src="/assets/ref8.png" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">9 / 10</div>
+                <img src="/assets/ref9.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">10 / 10</div>
+                <img src="/assets/ref10.png" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+
+            <div class="column">
+                <img class="demo cursor" src="/assets/ref1.png" style="width:100%" onclick="currentSlide(1)" alt="[RF 001] Entrar no sistema">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="/assets/ref2.png" style="width:100%" onclick="currentSlide(2)" alt="[RF 002] Cadastro">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="/assets/ref3.png" style="width:100%" onclick="currentSlide(3)" alt="[RF 003] Verificação">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="/assets/ref4.png" style="width:100%" onclick="currentSlide(4)" alt="[RF 004] Utilização do Sistema">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="/assets/ref5.png" style="width:100%" onclick="currentSlide(5)" alt="[RF 005] Consulta ">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="/assets/ref6.png" style="width:100%" onclick="currentSlide(6)" alt="[RF 006] Hora Extra">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="/assets/ref7.png" style="width:100%" onclick="currentSlide(7)" alt="[RF 007] Contracheque">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="/assets/ref8.png" style="width:100%" onclick="currentSlide(8)" alt="[RF 008] Envio de Dados">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="/assets/ref9.png" style="width:100%" onclick="currentSlide(9)" alt="[RF 009] Relatório para o Empregador">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="/assets/ref10.png" style="width:100%" onclick="currentSlide(10)" alt="[RF 010] Irregularidades">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>
+                Em 1980, a WDS Engenharia foi criada, em Brasília, para investir no mercado em ascensão da capital do País.
+            </p>
+            <div class="social-list">
+                <ul>
+                    <li>
+                        <a href=""><img src="assets/altair_ico2.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script type="text/javascript" src="/script.js"></script>
+
+
+</html>
