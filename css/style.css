@@ -34,6 +34,7 @@ body {
     display: inline;
     margin-left: auto;
     margin-right: auto;
+   
 }
 
 #lg_home {
@@ -50,6 +51,7 @@ body {
     text-decoration: none;
     font-family: Arial;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .header li a:hover {
