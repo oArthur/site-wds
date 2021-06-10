@@ -120,8 +120,15 @@ header {
 }
 
 #logo_altair {
-    width: 30rem;
-    margin-top: -2rem;
+    width: 15rem;
+}
+
+#img-dev {
+    margin-top: 1.5rem;
+}
+
+#fig-dev {
+    margin-bottom: 1.5rem;
 }
 
 .sobreNos h3 {
@@ -389,4 +396,22 @@ a:active {
 .video {
     align-items: center;
     margin-top: 6rem;
+}
+
+.contentdoc {
+    margin-top: 1.5rem;
+    display: flex;
+    margin-left: 0 auto;
+    font-size: 1.5rem;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+
+.contentdoc li {
+    list-style-type: circle;
+}
+
+.contentdoc a {
+    text-decoration: underline;
 }
