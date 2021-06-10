@@ -98,6 +98,10 @@ header {
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
 }
+.sobre_eginner{
+    margin-top: 6rem;
+    font-size: 40px;
+}
 
 .sobreNos img {
     width: 250px;
@@ -192,6 +196,15 @@ header {
     width: 75rem;
     box-shadow: 0.5px 0.5px 16px 2px black;
     margin-bottom: 4rem;
+}
+.descriptione{
+    margin-top: -2rem;
+    font-size: 20px;
+    /*display: flex;*/
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+    text-align: justify;
 }
 
 
@@ -324,5 +337,39 @@ footer {
 }
 
 .social-list img {
-    width: 3rem;
+    width: 9.5rem;
 }
+/*lista de conteudo*/
+.contentdoc{
+    
+}
+/* unvisited link */
+a:link {
+    color: inherit;
+}
+  
+/* visited link */
+a:visited {
+    color: inherit;
+}
+  
+/* mouse over link */
+a:hover {
+    color: inherit;
+}
+  
+/* selected link */
+a:active {
+    color: inherit;
+}
+.videopai{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+   
+}
+.video{
+    align-items: center;
+    margin-top: 6rem;
+}
+
