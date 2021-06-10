@@ -1,77 +1,18 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');*/
-
 body {
-    margin: 0;
+    margin: 0 0 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     background-color: #fff;
+    
 }
 
-#profile {
-    background-image: url("../assets/wdsb.png");
-    /**definindo a imagem de perfil*/
-    background-size: cover;
-    justify-content: center;
-    background-position-x: 75%;
-    background-repeat: no-repeat;
-    margin-left: auto;
-    margin-top: 0%;
-    margin-right: auto;
-    height: 300px;
-    width: 300px;
-    /*border-radius: 50%;*/
-    -webkit-box-shadow: 10px 10px 20px -1px rgb(0 0 0 / 45%);
-}
+/*navbar*/
 
-#name {
-    text-align: center;
+.navbar {
+    width: 100%;
+    height: 2.5rem;
+    background:black;
+    position: fixed;
 }
-
-#empresa {
-    font-family: 'Arial';
-    font-size: 70px;
-    margin-top: 30px;
-    color: #000;
-}
-
-header {
-    background-image: url(../assets/bg.png);
-    background-position: center;
-}
-
-#sobreNos {
-    color: black;
-    text-align: center;
-    margin-top: 5%;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 5px 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#sobre {
-    margin-top: -6px;
-    font-size: 40px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#description {
-    font-size: 20px;
-    display: flex;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 20px;
-    text-align: left;
-    text-align: justify;
-}
-
-#sobreNos img {
-    width: 250px;
-    border-radius: 2.5rem;
-}
-
 .header {
     align-items: center;
     justify-content: center;
@@ -87,24 +28,15 @@ header {
     overflow: hidden;
     ;
 }
-
-.navbar {
-    width: 100%;
-    height: 2.5rem;
-    background: rgba(0, 0, 0, 0.8);
-}
-
 .header ul li {
     display: inline;
     margin-left: auto;
     margin-right: auto;
 }
-
 #lg_home {
     margin-top: 5px;
     font-size: 20px;
 }
-
 .header ul li a {
     margin: 1px 5px 1px;
     display: inline-block;
@@ -115,7 +47,105 @@ header {
     font-family: Arial;
     font-weight: bold;
 }
-
 .header li a:hover {
     color: white;
 }
+
+/*logo*/
+
+#logo {
+    background-image: url("../assets/wdsb.png");
+    /**definindo a imagem de perfil*/
+    background-size: cover;
+    justify-content: center;
+    background-position-x: 75%;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-top: 0%;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    /*border-radius: 50%;*/
+    -webkit-box-shadow: 10px 10px 20px -1px rgb(0 0 0 / 45%);
+}
+header {
+    background-image: url(../assets/bg.png);
+    background-position: center;
+}
+
+/*sobrenos*/
+
+.sobreNos {
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+    padding: 5px 0;
+}   
+.sobre {
+    margin-top: -6px;
+    font-size: 40px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sobreNos img {
+    width: 250px;
+    border-radius: 2.5rem;
+}
+.description {
+    font-size: 20px;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    text-align: left;
+    text-align: justify;
+}
+
+/*desenvolvimento*/
+
+.desenvolvimento {
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+}
+.desenvolvimento img{
+    width: 20rem;
+    margin-top: 10px;
+}
+
+
+/*teste*/
+.estrategia {
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+}   
+
+.estrategia img{
+    width: 20rem;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+/*prototipo*/
+.prototipo {
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+}   
+
+.prototipo img{
+    width: 20rem;
+    margin-top: 10px;
+   
+}
+.cod{
+    text-align: center;
+}
+
+
+
+
+
+
+
